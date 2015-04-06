@@ -22,6 +22,10 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 
+TARGET_KERNEL_SOURCE := kernel/asus/kernel-flo
+TARGET_KERNEL_CONFIG := flo_defconfig
+TARGET_GCC_VERSION_ARM := 4.9
+
 # Compiler flags
 USE_O3_OPTIMIZATIONS=true
 GRAPHITE_OPTS=true
