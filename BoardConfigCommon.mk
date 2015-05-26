@@ -23,8 +23,8 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 
 TARGET_KERNEL_SOURCE := kernel/asus/kernel-flo
-TARGET_KERNEL_CONFIG := flo_defconfig
-TARGET_GCC_VERSION_ARM := 4.9
+TARGET_KERNEL_CONFIG := vindicator_defconfig
+TARGET_GCC_VERSION_ARM := 5.1
 
 # Compiler flags
 STRICT_ALIASING := true
